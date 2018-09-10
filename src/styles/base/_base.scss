@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+h1, #description { 
+  text-align: center
+}
+
+#map {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#tooltip {
+  background: rgba(50, 50, 50, 0.9);
+  border: 0px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  color: white;
+  font: 12px Arial;
+  padding: 10px;
+  position: absolute;
+}
+
+// without this much of the map does not render properly
+.states {
+  fill: none;
+}
