@@ -19,6 +19,6 @@ Education rates in the United States, in particular the numbers of citizens with
 
 ### Build Tools
 
-* Webpack
+* Parcel
 * Yarn
 * Babel
